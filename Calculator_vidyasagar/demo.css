@@ -1,0 +1,116 @@
+*{
+	margin:0px;
+	padding:0px;
+    list-style-type:none;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+table{
+    margin: 0;
+    padding: 0;
+    background: rgb(28, 24, 24);
+    border: solid 5px rgb(16, 14, 14);
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 10px;
+    background: darkgrey;
+   }
+.calculator{
+    position: relative;
+}
+.calculator .img{
+    grid-column: span 4;
+    border: none;
+    outline: none;
+}
+
+.display{
+    grid-column: span 4;
+    font-weight: bolder;
+    width: 230px;
+    height: 60px;
+    text-align: right;
+    border: 2px inset;
+    outline: none;
+    font-size: 22px;
+    border-radius: 10px;
+}
+.calculator input:active{
+    background-color: rgb(100, 0, 255);
+    color:black;
+}
+
+.clear{
+    display: grid;
+    width: 60px;
+    height: 60px;
+    place-items: center;
+    font-weight: bolder;
+    font-size: 22px;
+    border: outset 2px;
+    background-color:rgba(10, 197, 125, 0.815);
+    color:white;
+    border-radius: 10px;
+}
+
+.clear:hover{
+    background-color: rgb(52, 156, 253);
+    color: white;
+}
+
+.button{
+    display: grid;
+    width: 60px;
+    height: 60px;
+    place-items: center;
+    font-weight: bolder;
+    font-size: 22px;
+    /* border: outset 2px; */
+    background-color:rgb(28, 24, 24);
+    color:white;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: rgb(52, 156, 253);
+    color: white;
+}
+
+.xbut{
+    display: grid;
+    width: 60px;
+    height: 60px;
+    place-items: center;
+    font-weight: bolder;
+    font-size: 22px;
+    /* border: outset 2px; */
+    background-color:rgb(28, 24, 24);
+    color:white;
+    border-radius: 10px;
+}
+
+.xbut:hover{
+    background-color: rgb(52, 156, 253);
+    color: white;
+}
+
+td{
+    border-radius: 10px;
+}
+
+.close{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+}
